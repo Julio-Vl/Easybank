@@ -1,0 +1,104 @@
+/* Estilos do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 15px 30px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #fdb913;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+header .profile {
+    width: 40px;
+    height: 40px;
+    background-color: #fdb913;
+    border-radius: 50%;
+}
+
+/* Container da transferência */
+.transfer-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.transfer-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#transfer-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#transfer-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#transfer-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#transfer-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensagem de feedback */
+#message {
+    text-align: center;
+    font-size: 14px;
+    color: green;
+    margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ffcc00;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}

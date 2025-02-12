@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do usuário</title>
+    <link rel="stylesheet" href="../Styles/login.css">
+    <link rel="icon" href="../assets/imgs/Easy(1).png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><h1>Easy<span>Bank</span></h1></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="userArea.html">Área do usuário</a></li>
+                <li><a href="investimentos.html">Investimentos</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <a href="userArea.html">
+                <div id="profile-icon"></div>
+            </a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="login-container">
+            <img src="../assets/imgs/login_img.svg" alt="loginImg">
+            <h2>Login</h2>
+           <form id="form-login">
+                <label for="email" required>E-mail:</label>
+                <input type="email" id="email" placeholder="johnDoe@email.com" required><br>  
+                <label for="password" required>Senha:</label>
+                <input type="password" id="password" placeholder="MySecretPassword" required>
+                <button type="submit">Logar</button>
+                <br>
+                <button id="formButtonId"><a href="../pages/cadastro.html">Cadastre-se</a></button>
+                <button id="formButtonId" href="">Esqueci Minha Senha</button>
+
+           </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-text">2024 EasyBank - Todos os direitos reservados</div>
+    </footer>
+    <script src="../Scripts/login.js"></script>
+    
+</body>
+</html>

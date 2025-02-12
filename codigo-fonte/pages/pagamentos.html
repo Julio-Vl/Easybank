@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - EasyBank</title>
+    <link rel="stylesheet" href="../Styles/index.css">
+    <link rel="stylesheet" href="../Styles/pagamento.css">
+    <link rel="icon" href="../assets/imgs/Easy(1).png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><h1>Easy<span>Bank</span></h1></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="userArea.html">Área do usuário</a></li>
+                <li><a href="investimentos.html">Investimentos</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <a href="userArea.html">
+                <div id="profile-icon"></div>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="payment-container">
+            <h1>Pagamento</h1>
+            <form id="payment-form">
+                <label for="bar-code">Código de Barras</label>
+                <input type="text" id="bar-code" name="bar-code" placeholder="Digite o código de barras" maxlength="48" required>
+
+                <label for="payment-value">Valor do Pagamento</label>
+                <input type="number" id="payment-value" name="payment-value" placeholder="Digite o valor" required>
+
+                <label for="due-date">Data de Vencimento</label>
+                <input type="date" id="due-date" name="due-date" required>
+
+                <button type="submit">Realizar Pagamento</button>
+            </form>
+            <p id="message"></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-text">2024 EasyBank - Todos os direitos reservados</div>
+    </footer>
+
+    <script src="../Scripts/pagamento.js"></script>
+</body>
+</html>
