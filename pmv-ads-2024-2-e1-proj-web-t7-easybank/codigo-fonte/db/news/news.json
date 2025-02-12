@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "titulo": "Bitcoin aumenta seu valor",
+      "descricao": "A criptomoeda Bitcoin aumentou seu valor em 10% nas últimas 24 horas.",
+      "conteudo": "O mercado de criptomoedas vive mais um momento de euforia, com o Bitcoin registrando um aumento significativo de 10% nas últimas 24 horas. Especialistas atribuem essa alta ao aumento da demanda institucional, aliada à redução na oferta de novos Bitcoins, causada pelo halving que ocorreu no último ano. Além disso, o cenário global de incertezas econômicas tem levado investidores a procurar alternativas descentralizadas, como as criptomoedas. Analistas alertam que, embora o Bitcoin esteja em alta, é importante que investidores adotem uma abordagem cautelosa, dada a volatilidade do mercado.",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2021/12/GettyImages-1292889077.jpg?fit=1280%2C720&quality=50&strip=all",
+      "data": "20/11/2024"
+    },
+    {
+      "id": 2,
+      "titulo": "Investimentos em Alta: Saiba Onde Aplicar em 2024",
+      "descricao": "Descubra os setores promissores para investir no próximo ano.",
+      "conteudo": "Com o início de 2024 se aproximando, investidores estão de olho nos setores que prometem maior rentabilidade. Entre os destaques estão tecnologia, com avanços em inteligência artificial e computação quântica, e energia renovável, que continua sendo impulsionada pela transição global para fontes limpas de energia. Além disso, a recuperação do mercado imobiliário em algumas regiões do mundo está abrindo oportunidades para fundos de investimento imobiliário (FIIs). Especialistas recomendam diversificar a carteira, combinando ações, renda fixa e investimentos em mercados emergentes para garantir estabilidade e potencial de crescimento.",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLFynAo6zTzWWuwxrj51N79LF0PoTB_2fylA&s",
+      "data": "18/11/2024"
+    },
+    {
+      "id": 3,
+      "titulo": "Reforma Tributária: O que Muda para o Investidor?",
+      "descricao": "Entenda como a nova legislação impactará seus rendimentos.",
+      "conteudo": "A aprovação da reforma tributária no Congresso trouxe mudanças significativas para investidores brasileiros. A partir do próximo ano, rendimentos obtidos em aplicações de renda fixa, como Tesouro Direto e CDBs, serão taxados de forma progressiva, de acordo com o valor dos rendimentos anuais. Na renda variável, haverá ajustes na alíquota de imposto sobre o ganho de capital, impactando operações de day trade e swing trade. Para minimizar os impactos dessas mudanças, especialistas sugerem estratégias como a utilização de fundos de previdência privada e investimentos em ativos isentos, como LCI e LCA.",
+      "imagem": "https://files.sunoresearch.com.br/p/uploads/2017/12/financas-pessoais.jpg.jpg",
+      "data": "15/11/2024"
+    },
+    {
+      "id": 4,
+      "titulo": "Crescimento do PIX: O Futuro das Transações Financeiras",
+      "descricao": "Saiba como o PIX está transformando o mercado financeiro.",
+      "conteudo": "Desde seu lançamento, o PIX transformou a forma como brasileiros realizam transações financeiras, tornando-as mais rápidas, seguras e acessíveis. Em 2024, o Banco Central planeja expandir suas funcionalidades, introduzindo o PIX Parcelado, que permitirá o parcelamento de compras diretamente pelo sistema. Além disso, o PIX Internacional está em fase de testes, prometendo facilitar transferências entre países. O impacto no mercado financeiro é gigantesco, com bancos e fintechs adaptando seus serviços para atender à crescente demanda por soluções mais ágeis e econômicas.",
+      "imagem": "data:image/png;base64,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",
+      "data": "10/11/2024"
+    },
+    {
+      "id": 5,
+      "titulo": "Criptomoedas em 2024: Vale a Pena Investir?",
+      "descricao": "Análise das tendências para o mercado de criptomoedas.",
+      "conteudo": "O mercado de criptomoedas segue em evolução, com especialistas projetando um crescimento robusto em 2024. Enquanto o Bitcoin continua sendo o líder em capitalização de mercado, altcoins como Ethereum estão ganhando espaço com a implementação de inovações como contratos inteligentes. Além disso, novas criptomoedas voltadas para soluções específicas, como blockchain em saúde e logística, estão chamando a atenção. Apesar do potencial, o mercado continua altamente volátil, e investidores devem estudar bem antes de aplicar grandes somas, diversificando seu portfólio para minimizar riscos.",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_5ZtA-KNoboiJav11nP5L0hdegXjeog_WA&s",
+      "data": "05/11/2024"
+    },
+    {
+      "id": 6,
+      "titulo": "Educação Financeira: Como Planejar sua Aposentadoria",
+      "descricao": "Dicas práticas para garantir um futuro financeiro seguro.",
+      "conteudo": "Planejar a aposentadoria é um dos pilares de uma vida financeira saudável. Especialistas recomendam começar o planejamento o quanto antes, aproveitando o poder dos juros compostos. Para isso, é essencial definir um valor mensal de contribuição para investimentos de longo prazo, como previdência privada, ações e ETFs. Além disso, estar atento às mudanças na legislação previdenciária é crucial para evitar surpresas. O objetivo principal deve ser garantir uma renda confortável na aposentadoria, com investimentos diversificados que possam suportar oscilações do mercado ao longo dos anos.",
+      "imagem": "https://acbahia.com.br/wp-content/uploads/2019/09/img1-Cursos-online-gratuitos-ajudam-a-planeja-20670.png",
+      "data": "01/11/2024"
+    }
+  ]
+  

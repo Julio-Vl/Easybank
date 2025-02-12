@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* 20px */
+    width: 100%;
+    background-color: #0044a6;
+}
+
+.titulo__pix-container {
+    display: flex;
+    justify-content: center; /* Centraliza o parágrafo horizontalmente */
+    flex-grow: 1; /* Faz com que o container ocupe o máximo de espaço disponível */
+    text-align: center; /* Centraliza o texto dentro da div */
+}
+
+.titulo__pix {
+    font-size: 2rem;
+    color: white;
+}
+
+.pix__container {
+    padding-top: 40px;
+    align-items: center;
+    max-width: 600px; /* Limita a largura do contêiner */
+}
+
+.pix__texto {
+    font-size: 12px;
+    text-align: start;
+}
+
+.transfer-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 1.2rem;
+    color: #0044a6;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+body {
+    background-color: #f4f4f9;
+    align-items: center;
+    height: 100vh;
+}
+
+.qrcode__container,
+.banco__container,
+.copiaecola__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.qrcode__foto img,
+.banco__foto img,
+.copiaecola__foto img {
+    width: 100px; /* Ajuste a largura para o tamanho que deseja */
+    height: 50px; /* Ajuste a altura para o tamanho que deseja */
+    object-fit: contain; /* Faz a imagem se ajustar ao tamanho mantendo a proporção */
+}
+
+.qrcode__texto,
+.banco__texto,
+.copiaecola__texto {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #333;
+}
+
+.bancocode__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Garante que todos os containers estejam alinhados verticalmente */
+    justify-content: space-between; /* Espaçamento entre os containers */
+}
+
+footer {
+    background-color: #ffcc00;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}

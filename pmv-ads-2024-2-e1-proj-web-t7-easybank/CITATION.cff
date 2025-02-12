@@ -1,0 +1,24 @@
+cff-version: 1.0.1
+message: Sistema inclusivo de simulação do banco
+title: EasyBank
+authors:
+  - family-names: Carvalho
+    given-names: Nathan
+  - family-names: Vilaça
+    given-names:  Júlio
+  - family-names: Ferreira 
+    given-names: David
+  - family-names: Gonçalves
+    given-names: Vilma
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Rodrigo Costa
+    given-names: Marcos
+keywords:
+  - Banco
+  - Inclusivo
+  - Finanças
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e1-proj-web-t7-easybank
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-06-26

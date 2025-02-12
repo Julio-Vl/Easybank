@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBank</title>
+    <link rel="stylesheet" href="../Styles/index.css">
+    <link rel="stylesheet" href="../Styles/pix.css">
+    <link rel="icon" href="../assets/imgs/Easy(1).png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><h1>Easy<span>Bank</span></h1></a>
+        </div>
+        <div class="titulo__pix-container">
+            <p class="titulo__pix">Pix</p>
+        </div>
+        <div class="profile">
+            <a href="userArea.html">
+                <div id="profile-icon"></div>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="pix__container">
+        <h1>Para quem você vai transferir?</h1>
+        <form id="transfer-form">
+            <label for="account-number"></label>
+            <input type="text" id="account-number" name="account-number" placeholder="Nome, chave ou Pix copia e cola" minlength="6" maxlength="10" required>
+            <p class="pix__texto">Celular, CPF/CNPJ, e-mail, chave aleatória...</p>
+        </div>
+
+        <div class="bancocode__container">
+            <div class="qrcode__container">
+                <div class="qrcode__foto"><img src="../assets/imgs/Qrcode.png"></div>
+                <p class="qrcode__texto">Código<br>QR</p>
+            </div>
+            <div class="banco__container">
+                <div class="banco__foto"><img src="../assets/imgs/banco.jpg"></div>
+                <p class="banco__texto">Agência<br>e Conta</p>
+            </div>
+            <div class="copiaecola__container">
+                <div class="copiaecola__foto"><img src="../assets/imgs/copy.png"></div>
+                <p class="copiaecola__texto">Pix copia<br>e cola</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-text">2024 EasyBank - Todos os direitos reservados</div>
+    </footer>
+</body>

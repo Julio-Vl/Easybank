@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do usuário</title>
+    <link rel="stylesheet" href="../Styles/login.css">
+    <link rel="icon" href="../assets/imgs/Easy(1).png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Easy<span>Bank</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="userArea.html">Área do usuário</a></li>
+                <li><a href="investimentos.html">Investimentos</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <a href="userArea.html">
+                <div id="profile-icon"></div>
+            </a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="login-container">
+            <img src="../assets/imgs/login_img.svg" alt="loginImg">
+            <h2>Login</h2>
+            <form id="form-login">
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" placeholder="John Doe" required><br>
+            
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="johnDoe@email.com" required><br>  
+            
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="MySecretPassword" required><br>
+            
+                <label for="date-of-birth">Data de nascimento:</label>
+                <input type="date" id="date-of-birth" required><br>
+            
+                <button type="submit">Criar usuário</button><br><br>
+                
+               <a href="../pages/login.html" class="button-link">Já possuo login</a>
+                
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-text">2024 EasyBank - Todos os direitos reservados</div>
+    </footer>
+    <script src="../Scripts/cadastro.js"></script>
+    
+</body>
+</html>
